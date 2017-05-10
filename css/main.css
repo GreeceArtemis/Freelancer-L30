@@ -58,9 +58,7 @@ header span:nth-child(n){
 
 
 [class*="col"] {
-    float:left;
-    border: 18px solid white;
-    background-color: #b0b0b2;
+
 }
 
 .colorclaro{
