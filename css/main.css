@@ -11,6 +11,7 @@ header {
   color: white;
   font-weight: bold;
   position: fixed;
+  z-index: 1000;
 }
 
 .upper{
@@ -244,4 +245,17 @@ footer .col-4{
 }
 .col-12{
     width: 100%;
+}
+.section2 .img {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  position: absolute;
+  top:45%;
+  left: 45%;
+  font-size: 50px !important;
+  color:white;
+  background-color: #18bc9c;
 }

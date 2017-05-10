@@ -39,7 +39,7 @@ else{
 var images=document.getElementsByClassName("img");
 for(var i=0;i<images.length;i++){
   var div=document.createElement("div");
-  span.setAttribute("class","search");
+  div.setAttribute("class","search");
   var lupa=document.createElement("span");
   lupa.setAttribute("class","fa fa-search-plus");
   div.appendChild(lupa);
