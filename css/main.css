@@ -42,6 +42,10 @@ header span:nth-child(n){
   padding-top: 200px;
   padding-bottom: 100px;
  }
+ .section2 .star{
+   display: flex;
+   font-size: 25px;
+ }
  .section1, .section3{
   background-color: #18bc9c;
   color: white;
@@ -57,10 +61,10 @@ header span:nth-child(n){
   text-align: center;
   padding:100px 30px;
  }
-.section2 h1{
+.section2 h1, .section4 h1{
   color:#333333;
 }
-.section2 div{
+.section2 div ,.section4 div {
   color: #2C3E50;
 }
 .section2 div{
@@ -95,6 +99,23 @@ header span:nth-child(n){
   display: inline-block;
   font-size: 20px;
 }
+.section4 form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section4 .col-7 input{
+  width: 100%;
+    font-size: 20px;
+    margin: 5px;
+}
+.section4 .col-7 button{
+  display: flex;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
 .title-type{
   font-family:'Montserrat',Helvetica, Arial,  sans-serif;
 }
@@ -122,6 +143,7 @@ header span:nth-child(n){
   display: flex;
   justify-content:center;
   align-items: center;
+  font-size: 24px;
 }
 .star span{
   display: inline-block;
