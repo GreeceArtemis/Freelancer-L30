@@ -18,18 +18,21 @@ else{
 }
 if(scroll>677&&scroll<1584){
   document.getElementsByClassName("portfolio")[0].style.background="#18BC9C";
+  document.getElementsByClassName("portfolio")[0].style.color="white";
 }
 else{
   document.getElementsByClassName("portfolio")[0].style.background="#2C3E50";
 }
 if(scroll>=1584&&scroll<2125){
   document.getElementsByClassName("about")[0].style.background="#18BC9C";
+  document.getElementsByClassName("about")[0].style.color="white";
 }
 else{
   document.getElementsByClassName("about")[0].style.background="#2C3E50";
 }
 if(scroll>=2125){
   document.getElementsByClassName("contact")[0].style.background="#18BC9C";
+  document.getElementsByClassName("contact")[0].style.color="white";
 }
 else{
   document.getElementsByClassName("contact")[0].style.background="#2C3E50";

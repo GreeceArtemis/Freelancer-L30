@@ -24,6 +24,10 @@ nav{
   height: 70px;
   background-color: #2c3e50;
 }
+.portfolio:hover,.about:hover,.contact:hover{
+  cursor:pointer;
+  color: #18bc9c;
+}
 .title-start{
   justify-content: flex-start;
 }
@@ -192,6 +196,13 @@ footer .col-4{
   justify-content: space-around;
 
 }
+.social{
+  cursor:pointer;
+}
+.social:hover{
+  background-color: white;
+  color: #18bc9c;
+}
 .copy{
   background-color: #233140;
   color: white;
@@ -206,9 +217,6 @@ footer .col-4{
 
 }
 
-.colorclaro{
-  background-color:#dcdddf;
-}
 
 .col-1{
     width: 8.333%;
@@ -258,4 +266,33 @@ footer .col-4{
   font-size: 50px !important;
   color:white;
   background-color: #18bc9c;
+}
+.section4 form .col-7 textarea{
+  width: 100%;
+  font-family: inherit;
+  font-size: 20px;
+}
+.section4 form .col-7 input,
+.section4 form .col-7 button,
+.section4 form .col-7 textarea{
+  color: #55556f;
+  border: none;
+
+}
+.section4 form .input{
+  border-top: 1px solid #eee;
+  text-align: left;
+}
+
+.section4 form .col-7 label{
+  font-size: 10px;
+  font-weight: bold;
+}
+.section4 form .col-7 button{
+  background-color: #18bc9c;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  padding:15px;
+  cursor: pointer;
 }
